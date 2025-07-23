@@ -1,0 +1,34 @@
+# .NET build
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+*.cache
+*.log
+*.vs/
+
+# Docker
+*.pid
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Rider/VSCode
+.idea/
+.vscode/
+
+# EF Core
+# (оставляем Migrations для автосоздания БД)
+!DBinit/Migrations/
+
+# HTTP test files
+*.http
+
+# launchSettings
+Properties/launchSettings.json
+
+# Не игнорировать исходники и миграции! 
